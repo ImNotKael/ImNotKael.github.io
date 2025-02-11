@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
 
 body {
-        background-color:red;
-        color:black;
+        background-color: #161354;
+        color: #6e68b8;
         font-family: "Exo 2", serif;
         margin: 0px;
     }
@@ -12,7 +12,7 @@ h1 {
 }
 
 p{
-    background-color: maroon;
+    background-color: #231c84;
     border-radius: 8px;
     padding: 6px;
     padding-left: 5px
@@ -23,21 +23,21 @@ h1{
 }
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(177, 0, 0);
+    background-color: #231c84;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
 }
 .navbar a{
-    color:black;
+    color: #6e68b8;
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
 .navbar a:hover{
-    background-color: rgb(104, 6, 6);
+    background-color: #1C176A;
 }
 .navbar li{
-    float: left;
+    float: left
 }
