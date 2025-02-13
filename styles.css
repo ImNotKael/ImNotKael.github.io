@@ -4,7 +4,8 @@ body {
         background-color: #161354;
         color: #6e68b8;
         font-family: "Exo 2", serif;
-        margin: 0px;
+        margin: auto;
+        max-width: 1250px;
     }
 
 h1 {
@@ -25,12 +26,14 @@ h1{
     list-style-type: none;
     background-color: #231c84;
     padding: 0px;
-    margin: 0px;
+    margin: auto;
     overflow: hidden;
+    text-align: center;
 }
 .navbar a{
     color: #6e68b8;
     text-decoration: none;
+    margin: auto;
     padding: 15px;
     display: block;
     text-align: center;
@@ -38,10 +41,27 @@ h1{
 .navbar a:hover{
     background-color: #1C176A;
 }
-.navbar li{
-    float: left
+.navbar li {
+    display: inline-block;
+    margin: auto;
 }
 
-({
-    text-align: center;
+#me{
+    display: block;
+    margin: auto;
+}
+
+#anime1{
+    display: block;
+    margin:auto;
+}
+
+#anime2{
+    display: block;
+    margin: auto;
+}
+
+#anime3{
+    display: block;
+    margin: auto;
 }
