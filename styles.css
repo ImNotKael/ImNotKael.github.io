@@ -56,28 +56,49 @@ h1{
     margin: auto;
 }
 
-#me{
-    display: block;
-    margin: auto;
+
+.interest {
+    display:flex;
+    border-radius: 24px;
+    text-align:center
+
 }
 
-#div{
-    display:flex;
+.interest:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.interest p {
+    margin-right: 32px;
+    margin-bottom:auto;
+    font-size: 28px;
+}
+
+.interest img {
+    border-radius: 24px;
     
 }
 
-
-#anime1{
-    display: block;
-    margin:auto;
+.interest div{
+    display: flex;
 }
 
-#anime2{
-    display: block;
-    margin: auto;
+.kael > p{
+    margin-right: 32px;
+    margin-bottom:auto;
+    font-size: 30px;
 }
 
-#anime3{
-    display: block;
-    margin: auto;
+.kael{
+    text-align: center;
+    display: flex;
+    border-radius: 24px;
+    
 }
+
+.kael > img{
+    border-radius: 24px;
+}
+
+
+
