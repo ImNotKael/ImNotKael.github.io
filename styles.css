@@ -24,6 +24,24 @@ h1{
     text-align: center;
 }
 
+input{
+    background-color: #6e68b8;
+    border-radius: 10px;
+}
+textarea{
+    background-color: #6e68b8;
+    border-radius: 10px;
+}
+
+label{
+    text-align: center;
+}
+
+.button:hover{
+    background-color: #231c84;
+}
+
+
 .navbar {
     position: sticky;
     top: 0;
