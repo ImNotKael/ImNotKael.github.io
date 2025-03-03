@@ -53,9 +53,7 @@
     <br>
 
     <label>Comments</label>
-    
     <br>
-
     <textarea rows="5" cols="25" required></textarea>
     
     <br>
@@ -64,13 +62,13 @@
 
     <br>
 
-    <input type="checkbox"> <label>Messages</label>
+    <input type="checkbox"> <label>Messages<i data-lucide="messages-square"></i></label>
     <br>
-    <input type="checkbox"> <label>Instagram</label>
+    <input type="checkbox"> <label>Instagram<i data-lucide="instagram"></i></label>
     <br>
-    <input type="checkbox"> <label>Discord</label>
+    <input type="checkbox"> <label>Discord<i data-lucide="bot"></i></label>
     <br>
-    <input type="checkbox"> <label>Whatsapp</label>
+    <input type="checkbox"> <label>Whatsapp<i data-lucide="message-circle"></i></label>
 
     <br>
 
@@ -82,7 +80,15 @@
     <br>
     <input type="radio" name="yesno" required value="I absolutely disagree"/> <label>I absolutely disagree</label>
     <hr>
-    <input type="submit" class="button">
+    <input type="submit" class="button"  action="https://form-to-email.steam-center.workers.dev/"
+    method="post">
     <input type="reset" class="button">
+    <input name="send-to" value="kguerrero@brooklynsteamcenter.org" hidden>
+
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
 </form>
 </html>
