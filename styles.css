@@ -33,6 +33,10 @@ textarea{
     border-radius: 10px;
 }
 
+.center{
+    text-align: center;
+}
+
 label{
     text-align: center;
 }
@@ -53,8 +57,9 @@ label{
     background-color: #231c84;
     padding: 0px;
     margin: auto;
+    display:flex;
     overflow: hidden;
-    text-align: center;
+    justify-content: center;
     
 }
 .navbar a{
@@ -62,24 +67,49 @@ label{
     text-decoration: none;
     margin: auto;
     padding: 15px;
-    display: block;
+    display: inline-block;
     text-align: center;
 
 }
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transition: transform 0.25s ease-out;
+  }
+
 .navbar a:hover{
     background-color: #1C176A;
+    
 }
+
+.navbar a:hover::after{
+        transform: scaleX(1);
+        transform-origin: center;
+}
+
 .navbar li {
     display: inline-block;
-    margin: auto;
+    position: relative;
 }
 
 
 .interest {
     display:flex;
     border-radius: 24px;
-    text-align:center
+    justify-content: flex-start;
+    text-align: center;
 
+}
+
+.interest:nth-child(odd) {
+    flex-direction: row;
 }
 
 .interest:nth-child(even) {
@@ -87,13 +117,18 @@ label{
 }
 
 .interest p {
-    margin-right: 32px;
+    margin-left: 16px;
+    margin-right: 8px;
     margin-bottom:auto;
     font-size: 28px;
 }
 
-.interest img {
-    border-radius: 24px;
+.interest > img {
+    display:flex;
+    justify-content: space-evenly;
+    border-radius: 24px; 
+    margin:8px;
+    
     
 }
 
