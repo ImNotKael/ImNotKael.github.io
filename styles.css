@@ -154,4 +154,30 @@ label{
 }
 
 
+@media screen and (max-width: 600px) {
+    .navbar ul {
+        flex-wrap: wrap;
 
+    }
+
+    .kael{
+        flex-direction: column-reverse;
+    }
+
+     #headText{
+        font-size:20px;
+        padding: 20px;
+        margin: auto;
+        width: 75%;
+        
+     }
+
+     #imagea{
+        margin:auto;
+        margin-bottom: 20px;
+     }
+
+     h2{
+        text-align: center;
+     }
+}
