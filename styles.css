@@ -17,13 +17,6 @@ h2{
     text-align: center;
 }
 
-p{
-    background-color: #841c1c;
-    border-radius: 8px;
-    padding: 6px;
-    padding-left: 5px;
-}
-
 img{
     border-radius: 24px;
     padding:6px;
@@ -45,7 +38,8 @@ textarea{
 }
 
 .center{
-    text-align: center;
+    display: flex;
+    flex-direction: center;
 }
 
 label{
@@ -112,11 +106,8 @@ label{
 
 
 .interest {
-    display:flex;
-    border-radius: 24px;
-    justify-content: flex-start;
-    text-align: center;
-
+    display:auto;
+    width:80%;
 }
 
 .interest:nth-child(odd) {
@@ -156,6 +147,20 @@ label{
 
 .kael > img{
     border-radius: 24px;
+}
+
+.aboutcenter{
+    display: flex;
+    font-size:25px;
+    justify-content: space-evenly;
+    margin:auto;
+    flex-direction: row;
+    text-align: center;
+    background-color: #841c1c;
+    border-radius: 8px;
+    padding: 6px;
+    padding-left: 5px;
+    width: 80%;
 }
 
 
