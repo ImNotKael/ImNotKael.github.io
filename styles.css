@@ -163,6 +163,18 @@ label{
     width: 80%;
 }
 
+.about{
+    background-color: #480404;
+    border-radius: 25px;
+    width: 50%;
+}
+
+.flexcenter{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
 
 @media screen and (max-width: 600px) {
     .navbar ul {
