@@ -106,8 +106,9 @@ label{
 
 
 .interest {
-    display:auto;
+    display:flex;
     width:80%;
+    margin: auto;
 }
 
 .interest:nth-child(odd) {
@@ -118,19 +119,6 @@ label{
     flex-direction: row-reverse;
 }
 
-
-.interest > p {
-    margin-left: 16px;
-    margin-right: 8px;
-    margin-bottom:auto;
-    font-size: 28px;
-}
-
-
-
-.interest div{
-    display: flex;
-}
 
 .kael > p{
     margin-right: 32px;
