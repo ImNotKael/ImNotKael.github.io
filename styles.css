@@ -109,6 +109,7 @@ label{
     display:flex;
     width:80%;
     margin: auto;
+    justify-content: center;
 }
 
 .interest:nth-child(odd) {
