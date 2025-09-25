@@ -6,7 +6,13 @@ body {
         font-family: "Exo 2", serif;
         margin: auto;
         max-width: 1250px;
-        
+        background-image: repeating-linear-gradient(
+        to right,
+        #541313,
+        #541313 20px,
+        #790000 20px,
+        #790000 40px
+  );
     }
 
 h1 {
@@ -14,6 +20,11 @@ h1 {
 }
 
 h2{
+    border-radius: 20px;
+    align-items: center;
+    width: 60%;
+    color: white;
+    background-color: #6b0707;
     text-align: center;
 }
 
@@ -39,6 +50,7 @@ textarea{
 
 .center{
     display: flex;
+    justify-content: center;
     flex-direction: center;
 }
 
@@ -163,6 +175,8 @@ label{
     margin: auto;
     justify-content: space-evenly;
 }
+
+
 
 
 @media screen and (max-width: 600px) {
